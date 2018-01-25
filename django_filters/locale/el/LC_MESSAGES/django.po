@@ -1,200 +1,187 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Kane Blueriver <kxxoling@gmail.com>, 2016.
+# Serafeim Papastefanos <spapas@gmail.com>, 2017.
 #
 #: conf.py:27 conf.py:28 conf.py:41
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: django-filter\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-01-24 11:03+0500\n"
-"PO-Revision-Date: 2016-01-30 17:50+0800\n"
-"Last-Translator: Kane Blueriver <kxxoling@gmail.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2017-11-16 10:04+0200\n"
+"Last-Translator: Serafeim Papastefanos <spapas@gmail.com>\n"
+"Language-Team: \n"
+"Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.6.5\n"
 
 #: conf.py:17
-#, fuzzy
-#| msgid "Any date"
 msgid "date"
-msgstr "任何时刻"
+msgstr "ημερομηνία"
 
 #: conf.py:18
-#, fuzzy
-#| msgid "This year"
 msgid "year"
-msgstr "今年"
+msgstr "έτος"
 
 #: conf.py:19
-#, fuzzy
-#| msgid "This month"
 msgid "month"
-msgstr "本月"
+msgstr "μήνας"
 
 #: conf.py:20
-#, fuzzy
-#| msgid "Today"
 msgid "day"
-msgstr "今日"
+msgstr "ημέρα"
 
 #: conf.py:21
 msgid "week day"
-msgstr ""
+msgstr "ημέρα της εβδομάδας"
 
 #: conf.py:22
 msgid "hour"
-msgstr ""
+msgstr "ώρα"
 
 #: conf.py:23
 msgid "minute"
-msgstr ""
+msgstr "λεπτό"
 
 #: conf.py:24
 msgid "second"
-msgstr ""
+msgstr "δευτερόλεπτο"
 
 #: conf.py:29 conf.py:30
 msgid "contains"
-msgstr ""
+msgstr "περιέχει"
 
 #: conf.py:31
 msgid "is in"
-msgstr ""
+msgstr "είναι εντός των"
 
 #: conf.py:32
 msgid "is greater than"
-msgstr ""
+msgstr "είναι μεγαλύτερο από"
 
 #: conf.py:33
 msgid "is greater than or equal to"
-msgstr ""
+msgstr "είναι μεγαλύτερο ή ίσο του"
 
 #: conf.py:34
 msgid "is less than"
-msgstr ""
+msgstr "είναι μικρότερο από"
 
 #: conf.py:35
 msgid "is less than or equal to"
-msgstr ""
+msgstr "είναι μικρότερο ή ίσο του"
 
 #: conf.py:36 conf.py:37
 msgid "starts with"
-msgstr ""
+msgstr "ξεκινά με"
 
 #: conf.py:38 conf.py:39
 msgid "ends with"
-msgstr ""
+msgstr "τελειώνει με"
 
 #: conf.py:40
 msgid "is in range"
-msgstr ""
+msgstr "είναι εντος του εύρους"
 
 #: conf.py:42 conf.py:43
 msgid "matches regex"
-msgstr ""
+msgstr "περιέχει regex"
 
 #: conf.py:44 conf.py:52
 msgid "search"
-msgstr ""
+msgstr "αναζήτηση"
 
 #: conf.py:47
 msgid "is contained by"
-msgstr ""
+msgstr "περιέχεται σε"
 
 #: conf.py:48
 msgid "overlaps"
-msgstr ""
+msgstr "επικαλύπτεται"
 
 #: conf.py:49
 msgid "has key"
-msgstr ""
+msgstr "έχει το κλειδί"
 
 #: conf.py:50
 msgid "has keys"
-msgstr ""
+msgstr "έχει τα κλειδιά"
 
 #: conf.py:51
 msgid "has any keys"
-msgstr ""
+msgstr "έχει οποιαδήποτε κλειδιά"
 
 #: fields.py:178
 msgid "Range query expects two values."
-msgstr ""
+msgstr "Το ερώτημα εύρους απαιτεί δύο τιμές,"
 
 #: filters.py:429
 msgid "Any date"
-msgstr "任何时刻"
+msgstr "Οποιαδήποτε ημερομηνία"
 
 #: filters.py:430
 msgid "Today"
-msgstr "今日"
+msgstr "Σήμερα"
 
 #: filters.py:435
 msgid "Past 7 days"
-msgstr "过去 7 日"
+msgstr "Τις προηγούμενες 7 ημέρες"
 
 #: filters.py:439
 msgid "This month"
-msgstr "本月"
+msgstr "Αυτό το μήνα"
 
 #: filters.py:443
 msgid "This year"
-msgstr "今年"
+msgstr "Αυτό το έτος"
 
 #: filters.py:446
 msgid "Yesterday"
-msgstr "昨日"
+msgstr "Χτες"
 
 #: filters.py:512
 msgid "Multiple values may be separated by commas."
-msgstr ""
+msgstr "Οι πολλαπλές τιμές πρέπει να διαχωρίζονται με κόμμα."
 
 #: filters.py:591
 #, python-format
 msgid "%s (descending)"
-msgstr "%s（降序）"
+msgstr "%s (φθίνουσα"
 
 #: filters.py:607
 msgid "Ordering"
-msgstr "排序"
+msgstr "Ταξινόμηση"
 
 #: rest_framework/filterset.py:30
 #: templates/django_filters/rest_framework/form.html:5
 msgid "Submit"
-msgstr ""
+msgstr "Υποβολή"
 
 #: templates/django_filters/rest_framework/crispy_form.html:4
 #: templates/django_filters/rest_framework/form.html:2
-#, fuzzy
-#| msgid "Filter"
 msgid "Field filters"
-msgstr "过滤器"
+msgstr "Φίλτρα πεδίων"
 
 #: utils.py:224
 msgid "exclude"
-msgstr ""
+msgstr "απέκλεισε"
 
 #: widgets.py:57
 msgid "All"
-msgstr "全部"
+msgstr "Όλα"
 
 #: widgets.py:159
 msgid "Unknown"
-msgstr ""
+msgstr "Άγνωστο"
 
 #: widgets.py:160
 msgid "Yes"
-msgstr ""
+msgstr "Ναι"
 
 #: widgets.py:161
 msgid "No"
-msgstr ""
-
-#~ msgid "This is an exclusion filter"
-#~ msgstr "未启用该过滤器"
+msgstr "Όχι"
